@@ -16,6 +16,9 @@
 		1787BE4C16FB873A00B8246B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1787BE4B16FB873A00B8246B /* Default.png */; };
 		1787BE4E16FB873A00B8246B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1787BE4D16FB873A00B8246B /* Default@2x.png */; };
 		1787BE5016FB873A00B8246B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1787BE4F16FB873A00B8246B /* Default-568h@2x.png */; };
+		1787BE5916FB8A5D00B8246B /* HeavyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1787BE5716FB8A5D00B8246B /* HeavyViewController.m */; };
+		1787BE5A16FB8A5D00B8246B /* HeavyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1787BE5816FB8A5D00B8246B /* HeavyViewController.xib */; };
+		1787BE5C16FB8D8C00B8246B /* joeeye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1787BE5B16FB8D8C00B8246B /* joeeye.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		1787BE4B16FB873A00B8246B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1787BE4D16FB873A00B8246B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1787BE4F16FB873A00B8246B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1787BE5616FB8A5D00B8246B /* HeavyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeavyViewController.h; path = ../HeavyViewController.h; sourceTree = "<group>"; };
+		1787BE5716FB8A5D00B8246B /* HeavyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeavyViewController.m; path = ../HeavyViewController.m; sourceTree = "<group>"; };
+		1787BE5816FB8A5D00B8246B /* HeavyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeavyViewController.xib; path = ../HeavyViewController.xib; sourceTree = "<group>"; };
+		1787BE5B16FB8D8C00B8246B /* joeeye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joeeye.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,10 @@
 		1787BE3F16FB873900B8246B /* HeavyRotation */ = {
 			isa = PBXGroup;
 			children = (
+				1787BE5B16FB8D8C00B8246B /* joeeye.jpg */,
+				1787BE5616FB8A5D00B8246B /* HeavyViewController.h */,
+				1787BE5716FB8A5D00B8246B /* HeavyViewController.m */,
+				1787BE5816FB8A5D00B8246B /* HeavyViewController.xib */,
 				1787BE4816FB873900B8246B /* RotationAppDelegate.h */,
 				1787BE4916FB873900B8246B /* RotationAppDelegate.m */,
 				1787BE4016FB873900B8246B /* Supporting Files */,
@@ -155,6 +166,8 @@
 				1787BE4C16FB873A00B8246B /* Default.png in Resources */,
 				1787BE4E16FB873A00B8246B /* Default@2x.png in Resources */,
 				1787BE5016FB873A00B8246B /* Default-568h@2x.png in Resources */,
+				1787BE5A16FB8A5D00B8246B /* HeavyViewController.xib in Resources */,
+				1787BE5C16FB8D8C00B8246B /* joeeye.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 			files = (
 				1787BE4616FB873900B8246B /* main.m in Sources */,
 				1787BE4A16FB873900B8246B /* RotationAppDelegate.m in Sources */,
+				1787BE5916FB8A5D00B8246B /* HeavyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
